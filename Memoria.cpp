@@ -1,59 +1,39 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Estudiante {
-private:
-    string nombre;
-    int edad;
-    string grado;
 
-public:
-    // Constructor para inicializar las propiedades del estudiante
-    Estudiante() {
-        nombre = "";
-        edad = 0;
-        grado = "";
-    }
+// Definicion del alfuncion intercambiar que toma dos punteros a enteros.
+void intercambiar(int *a, int *b) {
 
-    // Función para establecer los datos del estudiante
-    void establecer_datos(std::string nombre, int edad, std::string grado) {
-        this->nombre = nombre;
-        this->edad = edad;
-        this->grado = grado;
-    }
+    // Se declara una variable temp para almacenar temporalmente el valor apuntado por 'a'.
+    int temp = *a;
 
-    // Función para mostrar la información del estudiante
-    void mostrar_info() {
-        cout << "Nombre: " << nombre << std::endl;
-        cout << "Edad: " << edad << " años" << std::endl;
-        cout << "Grado: " << grado << std::endl;
-    }
-};
+    // Se asigna el valor apuntado por 'b' al espacio de memoria apuntado por 'a'.
+    *a = *b;
+    // Se asigna el valor almacenado en 'temp' (originalmente apuntado por 'a') al espacio de memoria apuntado por 'b'.
+    *b = temp;
+}
 
 int main() {
-    Estudiante estudiante;
+    // Se declaran dos cariables enteras num1 y num2 con valores iniciales.
+    int num1 = 5;
+    int num2 = 10;
 
-    string nombre;
-    int edad;
-    string grado;
+    // Se imprime el valor inicial de num1 y num2.
+    std::cout << "Valores originales: num1 = " << num1 << ", num2 = " << num2 << std::endl;
 
-    // Solicitar al usuario que introduzca los datos del estudiante
-    cout << "Introduce el nombre del estudiante: ";
-    getline(std::cin, nombre);
+    // Se declaran dos punteros a enteros, ptr1 y ptr2, que apuntan a las direcciones de memoria de num1 y num2, respectivamente.
+    int *ptr1 = &num1;
+    int *ptr2 = &num2;
 
-    cout << "Introduce la edad del estudiante: ";
-    cin >> edad;
+    // Se llama a la función intercambiar con los punteros ptr1 y ptr2 como argumentos.
+// La función intercambiar modificará los valores a los que apuntan estos punteros.
+    intercambiar(ptr1, ptr2);
 
-    cin.ignore(); // Para consumir el salto de línea pendiente
-
-    cout << "Introduce el grado del estudiante: ";
-    getline(std::cin, grado);
-
-    // Establecer los datos del estudiante
-    estudiante.establecer_datos(nombre, edad, grado);
-
-    // Mostrar la información del estudiante
-    estudiante.mostrar_info();
+    // Se imprime el valor final de num1 y num2 despues de la llamada a la funcion interecambiar.
+    // Lo que mostará lso calores intercambiados.
+    std::cout << "Valores intercambiados: num1 = " << num1 << ", num2 = " << num2 << std::endl;
 
     return 0;
+
 }

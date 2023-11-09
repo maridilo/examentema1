@@ -40,15 +40,29 @@ int main() {
     int edad;
     string grado;
 
+    // Solicitar al usuario que introduzca los datos del estudiante
     cout << "Introduzca el nombre del estudiante: ";
-    cin >> nombre;
+    getline(std::cin, nombre);
+
     cout << "Introduzca la edad del estudiante: ";
     cin >> edad;
-    cout << "Introduzca el grado del estudiante: ";
-    cin >> grado;
+    cin.ignore(); // Para consumir el salto de línea pendiente
 
+    cout << "Introduzca el grado del estudiante: ";
+    getline(std::cin, grado);
+
+
+    // Establecer los datos del estudiante
     estudiante1.establecer_datos("Juan", 20, "Ingenieria en Sistemas");
+    // Mostrar la informacion del estudiante
     estudiante1.mostrar_info();
+
+    int materias_aregistrar[33];
+    cout << "Introduzca el nombre de la materia: ";
+    cin>>materias_aregistrar[33];
+    *materias_aregistrar=
+    cout <<"que materia desea mostrar: "<<
+
 
     return 0;
 }
