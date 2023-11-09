@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(examentema1
      main.cpp
-        estudiantes.cpp)
+        estudiantes.cpp
+        Memoria.cpp)
