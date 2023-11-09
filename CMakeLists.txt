@@ -9,4 +9,5 @@ add_executable(examentema1
         Memoria.cpp
         excepciones.cpp
         promedio.cpp
-        ausencias.cpp)
+        ausencias.cpp
+        filtro.cpp)
