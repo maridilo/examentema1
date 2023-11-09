@@ -10,4 +10,5 @@ add_executable(examentema1
         excepciones.cpp
         promedio.cpp
         ausencias.cpp
-        filtro.cpp)
+        filtro.cpp
+        profesores.cpp)

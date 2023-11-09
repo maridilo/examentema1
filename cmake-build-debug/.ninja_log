@@ -1,11 +1,11 @@
 # ninja log v5
-2	487	7212362074953636	build.ninja	7651ddd77e99efaa
+2	487	7212367067530441	build.ninja	7651ddd77e99efaa
 6	828	7212353669628740	CMakeFiles/examentema1.dir/estudiantes.cpp.obj	b405e09e7e084e3c
 7	1204	7212307091297393	CMakeFiles/examentema1.dir/main.cpp.obj	2af400be1bed17ec
 1510	2227	7212299999226648	examentema1.exe	4e3b458890604dec
 12	986	7212349416043319	CMakeFiles/examentema1.dir/excepciones.cpp.obj	63fd92bec00704cd
 14	754	7212353113924093	CMakeFiles/examentema1.dir/promedio.cpp.obj	238390f792c5ed68
 24	1392	7212324991363596	CMakeFiles/examentema1.dir/Memoria.cpp.obj	23a126acebf3fce6
-4	105	7212358575591527	CMakeFiles/examentema1.dir/ausencias.cpp.obj	4bed3e6bea69b647
 18	816	7212363119766540	CMakeFiles/examentema1.dir/ausencias.cpp.obj	4bed3e6bea69b647
 8	1130	7212363465089138	CMakeFiles/examentema1.dir/filtro.cpp.obj	9d1b6d37ac33808
+5	890	7212368285931258	CMakeFiles/examentema1.dir/profesores.cpp.obj	76dd18eec77a1ddf
