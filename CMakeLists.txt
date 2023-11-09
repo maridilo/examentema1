@@ -7,4 +7,6 @@ add_executable(examentema1
      main.cpp
         estudiantes.cpp
         Memoria.cpp
-        excepciones.cpp)
+        excepciones.cpp
+        promedio.cpp
+        ausencias.cpp)

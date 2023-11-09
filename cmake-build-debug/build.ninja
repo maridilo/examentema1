@@ -73,6 +73,18 @@ build CMakeFiles/examentema1.dir/excepciones.cpp.obj: CXX_COMPILER__examentema1_
   OBJECT_DIR = CMakeFiles\examentema1.dir
   OBJECT_FILE_DIR = CMakeFiles\examentema1.dir
 
+build CMakeFiles/examentema1.dir/promedio.cpp.obj: CXX_COMPILER__examentema1_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/examentema1/cmake-build-debug/promedio.cpp || cmake_object_order_depends_target_examentema1
+  DEP_FILE = CMakeFiles\examentema1.dir\promedio.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\examentema1.dir
+  OBJECT_FILE_DIR = CMakeFiles\examentema1.dir
+
+build CMakeFiles/examentema1.dir/ausencias.cpp.obj: CXX_COMPILER__examentema1_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/examentema1/ausencias.cpp || cmake_object_order_depends_target_examentema1
+  DEP_FILE = CMakeFiles\examentema1.dir\ausencias.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\examentema1.dir
+  OBJECT_FILE_DIR = CMakeFiles\examentema1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target examentema1
@@ -81,7 +93,7 @@ build CMakeFiles/examentema1.dir/excepciones.cpp.obj: CXX_COMPILER__examentema1_
 #############################################
 # Link the executable examentema1.exe
 
-build examentema1.exe: CXX_EXECUTABLE_LINKER__examentema1_Debug CMakeFiles/examentema1.dir/main.cpp.obj CMakeFiles/examentema1.dir/estudiantes.cpp.obj CMakeFiles/examentema1.dir/Memoria.cpp.obj CMakeFiles/examentema1.dir/excepciones.cpp.obj
+build examentema1.exe: CXX_EXECUTABLE_LINKER__examentema1_Debug CMakeFiles/examentema1.dir/main.cpp.obj CMakeFiles/examentema1.dir/estudiantes.cpp.obj CMakeFiles/examentema1.dir/Memoria.cpp.obj CMakeFiles/examentema1.dir/excepciones.cpp.obj CMakeFiles/examentema1.dir/promedio.cpp.obj CMakeFiles/examentema1.dir/ausencias.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\examentema1.dir

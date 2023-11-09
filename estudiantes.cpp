@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -9,7 +10,6 @@ private:
     string nombre;
     int edad;
     string grado;
-
 public:
     // Constructor para inicializar las propiedades del estudiante
     Estudiante() {
@@ -57,11 +57,6 @@ int main() {
     // Mostrar la informacion del estudiante
     estudiante1.mostrar_info();
 
-    int materias_aregistrar[33];
-    cout << "Introduzca el nombre de la materia: ";
-    cin>>materias_aregistrar[33];
-    *materias_aregistrar=
-    cout <<"que materia desea mostrar: "<<
-    
+
     return 0;
 }
