@@ -41,5 +41,10 @@ int main() {
 
     // Mostrar estudiantes filtrados
     cout << "Estudiantes de " << gradoFiltrado << " grado:" << endl;
-    for (const Estudiante& estudiante
+    for (const Estudiante& estudiantes : estudiantesFiltrados) {
+        cout << estudiantes.nombre << endl;
+    }
+
+    return 0;
+}
 
