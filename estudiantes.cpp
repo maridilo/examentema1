@@ -62,7 +62,6 @@ int main() {
     cin>>materias_aregistrar[33];
     *materias_aregistrar=
     cout <<"que materia desea mostrar: "<<
-
-
+    
     return 0;
 }
